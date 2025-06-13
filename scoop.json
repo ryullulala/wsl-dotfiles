@@ -1,0 +1,99 @@
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": {
+                "value": "\/Date(1749544218000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2025년 6월 10일 화요일 오후 5:30:18"
+            },
+            "Manifests": 1391
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1749544207000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2025년 6월 10일 화요일 오후 5:30:07"
+            },
+            "Manifests": 2167
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": {
+                "value": "\/Date(1749434709000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2025년 6월 9일 월요일 오전 11:05:09"
+            },
+            "Manifests": 367
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "24.09",
+            "Updated": "\/Date(1749552174723)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "bandizip",
+            "Version": "7.38",
+            "Updated": "\/Date(1749552178380)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "chatgpt",
+            "Version": "1.1.0",
+            "Updated": "\/Date(1730347148775)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "dbeaver",
+            "Version": "25.1.0",
+            "Updated": "\/Date(1749552195271)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.49.0",
+            "Updated": "\/Date(1749552226556)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "googlechrome",
+            "Version": "137.0.7151.69",
+            "Updated": "\/Date(1749552058211)\/"
+        },
+        {
+            "Info": "",
+            "Source": "nerd-fonts",
+            "Name": "Meslo-NF",
+            "Version": "3.4.0",
+            "Updated": "\/Date(1749557130213)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vscode",
+            "Version": "1.95.0",
+            "Updated": "\/Date(1730351171073)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "warp-terminal",
+            "Version": "0.2025.06.04.08.11.stable_03",
+            "Updated": "\/Date(1749551738284)\/"
+        }
+    ]
+}
