@@ -9,5 +9,4 @@ sudo apt update && sudo apt upgrade -y && sudo apt install zsh -y
 chsh -s $(which zsh)
 [ -f "$DOTFILES/.gitconfig" ] && ln -nfs $DOTFILES/.gitconfig $HOME/.gitconfig
 [ -f "$DOTFILES/.gitconfig-cleanroom" ] && ln -nfs $DOTFILES/.gitconfig-cleanroom $HOME/.gitconfig-cleanroom
-nvm install --lts && nvm use --lts
 [ -d "$DOTFILES/nvim" ] && mkdir -p $HOME/.config && ln -nfs $DOTFILES/nvim $HOME/.config

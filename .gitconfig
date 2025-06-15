@@ -1,9 +1,15 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[user]
+	email = byeongryul.cho@gmail.com
+	name = Byeongryul Cho
+[includeIf "gitdir:/home/kali/Cleanroom/"]
+	path = /home/kali/.gitconfig-cleanroom
 [credential "https://github.com"]
 	helper = 
 	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
-[user]
-	email = byeongryul.cho@gmail.com
-	name = Byeongryul Cho
