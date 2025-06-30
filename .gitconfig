@@ -7,9 +7,6 @@
 	name = Byeongryul Cho
 [includeIf "gitdir:/home/kali/Cleanroom/"]
 	path = /home/kali/.gitconfig-cleanroom
-[credential "https://github.com"]
-	helper = 
-	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = 
-	helper = !/home/linuxbrew/.linuxbrew/bin/gh auth git-credential
+[credential]
+	helper = /mnt/c/Users/kali/scoop/apps/git-credential-manager/current/git-credential-manager.exe
+	useHttpPath = true
